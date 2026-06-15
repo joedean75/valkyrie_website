@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Auriga Industries — Autonomous aircraft for search, rescue & security</title>
+  <meta name="description" content="Auriga Industries builds American fixed-wing VTOL aircraft with onboard thermal autonomy — long endurance, vertical takeoff, NDAA-compliant. Built to find what matters." />
+  <meta name="theme-color" content="#0a0b0d" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Auriga Industries — Sentinel" />
+  <meta property="og:description" content="American-built autonomous aircraft for the missions that matter — search & rescue today, security tomorrow." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <a class="nav__brand" href="#top" aria-label="Auriga Industries home">
+      <svg class="nav__mark" viewBox="0 0 32 32" aria-hidden="true">
+        <path d="M16 2 L30 30 L16 23 L2 30 Z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+        <circle cx="16" cy="14" r="2" fill="currentColor"/>
+      </svg>
+      <span>AURIGA<span class="nav__brand-thin"> INDUSTRIES</span></span>
+    </a>
+    <nav class="nav__links" id="navLinks">
+      <a href="#mission">Mission</a>
+      <a href="#platform">Sentinel</a>
+      <a href="#capabilities">Capabilities</a>
+      <a href="#dual">Missions</a>
+      <a href="#compliance">American-Built</a>
+      <a href="#contact" class="nav__cta">Contact</a>
+    </nav>
+    <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="top">
+    <div class="hero__grid" aria-hidden="true"></div>
+    <div class="hero__glow" aria-hidden="true"></div>
+    <div class="hero__inner">
+      <p class="eyebrow reveal">American autonomy · Fixed-wing VTOL</p>
+      <h1 class="hero__title reveal">Find what <span class="grad">matters</span>.<br />Before time runs out.</h1>
+      <p class="hero__sub reveal">
+        Auriga Industries builds American aircraft that take off anywhere, fly for hours,
+        and locate people by sight and by heat — then put them on the operator's map in
+        seconds. Endurance and autonomy, in one airframe.
+      </p>
+      <div class="hero__actions reveal">
+        <a href="#platform" class="btn btn--primary">Meet Sentinel</a>
+        <a href="#contact" class="btn btn--ghost">Work with us</a>
+      </div>
+    </div>
+    <div class="hero__ticker" aria-hidden="true">
+      <span>NDAA / ASDA COMPLIANT</span><span>•</span>
+      <span>VERTICAL TAKEOFF</span><span>•</span>
+      <span>ONBOARD THERMAL AUTONOMY</span><span>•</span>
+      <span>TAK-NATIVE</span><span>•</span>
+      <span>BUILT IN AMERICA</span><span>•</span>
+    </div>
+  </section>
+
+  <!-- ============ MISSION / MANIFESTO ============ -->
+  <section class="manifesto" id="mission">
+    <div class="container">
+      <p class="manifesto__text reveal">
+        When a search team has hours and a missing person has minutes,
+        <em>endurance is everything.</em> When those who defend us need eyes over the next
+        ridge, <em>so is autonomy.</em> We build aircraft that fly farther, see in the dark,
+        and decide on the edge — domestically built, compliant by design, and trusted with
+        what matters most.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ STATS ============ -->
+  <section class="stats">
+    <div class="container stats__row">
+      <div class="stat reveal"><span class="stat__num" data-target="40" data-suffix="+ min">0</span><span class="stat__label">Endurance, fixed-wing cruise</span></div>
+      <div class="stat reveal"><span class="stat__num" data-target="2500" data-suffix=" km²">0</span><span class="stat__label">Deployable area of operations</span></div>
+      <div class="stat reveal"><span class="stat__num" data-target="10" data-prefix="&lt;" data-suffix=" min">0</span><span class="stat__label">Case to airborne</span></div>
+      <div class="stat reveal"><span class="stat__num" data-target="100" data-suffix="%">0</span><span class="stat__label">U.S.-built &amp; NDAA-sourced</span></div>
+    </div>
+  </section>
+
+  <!-- ============ PLATFORM ============ -->
+  <section class="platform" id="platform">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">The Platform</p>
+        <h2>Sentinel</h2>
+        <p class="section-head__lead">
+          A small electric fixed-wing VTOL. It launches and lands vertically — no runway,
+          no catapult — then transitions to efficient winged flight for the endurance and
+          area coverage a wide search demands.
+        </p>
+      </div>
+      <div class="platform__art reveal" aria-hidden="true">
+        <svg viewBox="0 0 600 200" class="aircraft" role="img" aria-label="Stylized fixed-wing VTOL silhouette">
+          <line x1="40" y1="100" x2="560" y2="100" stroke="currentColor" stroke-width="2"/>
+          <polygon points="300,60 320,100 300,140 280,100" fill="currentColor"/>
+          <line x1="120" y1="60" x2="120" y2="140" stroke="currentColor" stroke-width="6" stroke-linecap="round"/>
+          <line x1="480" y1="60" x2="480" y2="140" stroke="currentColor" stroke-width="6" stroke-linecap="round"/>
+          <path d="M300 100 L420 60 L300 80 Z" fill="currentColor" opacity="0.5"/>
+          <path d="M300 100 L420 140 L300 120 Z" fill="currentColor" opacity="0.5"/>
+        </svg>
+      </div>
+      <div class="specs reveal">
+        <div class="spec"><span class="spec__k">Configuration</span><span class="spec__v">QuadPlane VTOL · 4× lift + 1× cruise</span></div>
+        <div class="spec"><span class="spec__k">Endurance</span><span class="spec__v">≥40 min v1 · 90+ min roadmap</span></div>
+        <div class="spec"><span class="spec__k">Cruise</span><span class="spec__v">15–25 m/s efficient winged flight</span></div>
+        <div class="spec"><span class="spec__k">Payload</span><span class="spec__v">Thermal + EO · RTK GPS-INS</span></div>
+        <div class="spec"><span class="spec__k">Compute</span><span class="spec__v">Onboard edge AI (NVIDIA Jetson)</span></div>
+        <div class="spec"><span class="spec__k">Datalink</span><span class="spec__v">Encrypted C2 · TAK-native results</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CAPABILITIES ============ -->
+  <section class="caps" id="capabilities">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Capabilities</p>
+        <h2>The intelligence is onboard</h2>
+        <p class="section-head__lead">
+          Sentinel doesn't just stream video. A real-time pipeline detects, tracks, and
+          geolocates what it sees — and delivers a coordinate, not a video feed to squint at.
+        </p>
+      </div>
+      <div class="cards">
+        <article class="card reveal">
+          <div class="card__icon">◎</div>
+          <h3>Thermal detection</h3>
+          <p>Finds people by heat signature — at night, under canopy, across terrain where the human eye fails.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card__icon">⤳</div>
+          <h3>Track &amp; geolocate</h3>
+          <p>Multi-object tracking plus pixel-to-ground geolocation turns a detection into a coordinate a team can walk to.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card__icon">▤</div>
+          <h3>TAK-native</h3>
+          <p>Geolocated detections flow into ATAK / WinTAK over Cursor-on-Target — the tools operators already trust.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card__icon">⬡</div>
+          <h3>Autonomous search</h3>
+          <p>Plan a pattern, launch, and let it run — prioritized sector search across a wide area of operations.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card__icon">◳</div>
+          <h3>Wide-area mapping</h3>
+          <p>EO photogrammetry to orthomosaics and thermal mosaics for wildfire perimeters and infrastructure.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card__icon">⎈</div>
+          <h3>Edge-resilient</h3>
+          <p>Decisions made on the aircraft — no dependence on a cloud link in the field.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DUAL MISSION ============ -->
+  <section class="dual" id="dual">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">One platform · Two missions</p>
+        <h2>Built to save lives. Engineered to defend them.</h2>
+      </div>
+      <div class="dual__split">
+        <article class="lane lane--civil reveal">
+          <p class="lane__tag">Civil · Available now</p>
+          <h3>Search, Rescue &amp; Response</h3>
+          <p>
+            For county and volunteer search-and-rescue, wildfire agencies, and emergency
+            management. Sweep in minutes the terrain that takes ground teams hours — and
+            deliver coordinates, not guesswork.
+          </p>
+          <ul class="lane__list">
+            <li>Missing-person search, day or night</li>
+            <li>Wildfire perimeter &amp; hotspot mapping</li>
+            <li>Disaster response &amp; situational awareness</li>
+          </ul>
+        </article>
+        <article class="lane lane--defense reveal">
+          <p class="lane__tag">Defense · The long line</p>
+          <h3>Autonomous ISR</h3>
+          <p>
+            The same endurance, autonomy, and sensing — purpose-built for the operator who
+            needs persistent eyes forward. Runway-independent. Domestically sourced.
+            Trusted by design.
+          </p>
+          <ul class="lane__list">
+            <li>Persistent wide-area surveillance</li>
+            <li>Detect, track &amp; geolocate at the edge</li>
+            <li>Compliant supply chain for restricted programs</li>
+          </ul>
+        </article>
+      </div>
+      <p class="dual__note reveal">Sensing only — detect, classify, track, geolocate, map. No weaponization.</p>
+    </div>
+  </section>
+
+  <!-- ============ AMERICAN-BUILT / COMPLIANCE ============ -->
+  <section class="compliance" id="compliance">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">American-Built</p>
+        <h2>Compliant by design — not as an afterthought</h2>
+        <p class="section-head__lead">
+          Foreign-made drones are barred from the grant dollars and programs our customers
+          depend on. We built the other way from day one: a clean, domestic supply chain and
+          the compliance artifacts to prove it.
+        </p>
+      </div>
+      <div class="badges">
+        <div class="badge reveal"><span>NDAA / ASDA</span><small>No covered foreign components</small></div>
+        <div class="badge reveal"><span>Green UAS → Blue UAS</span><small>Civil credential, defense path</small></div>
+        <div class="badge reveal"><span>Remote ID</span><small>FAA Part 89 / F3411</small></div>
+        <div class="badge reveal"><span>SBOM</span><small>CycloneDX, per EO 14028</small></div>
+        <div class="badge reveal"><span>EAR, not ITAR</span><small>Civil platform posture</small></div>
+        <div class="badge reveal"><span>Provenance logged</span><small>Component country-of-origin tracked</small></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STATUS / COMPANY ============ -->
+  <section class="company">
+    <div class="container company__grid">
+      <div class="reveal">
+        <p class="eyebrow">Where we are</p>
+        <h2>Software first. De-risked before the metal.</h2>
+        <p>
+          We built the hard part first. The full ground-control stack, onboard autonomy,
+          detection, geolocation, transition and failsafe behaviors, Remote ID and TAK
+          integration are built and validated in simulation, with an end-to-end test suite
+          running in continuous integration. Funding turns a proven software platform into
+          a flying aircraft.
+        </p>
+        <ul class="milestones">
+          <li><span>Phase&nbsp;0</span> Software platform complete · SITL-validated</li>
+          <li><span>Next</span> First flying prototype &amp; paid agency pilots</li>
+          <li><span>Then</span> Endurance, compliance credential, fielding</li>
+        </ul>
+      </div>
+      <div class="founder reveal">
+        <p class="eyebrow">The company</p>
+        <h3>Auriga Industries</h3>
+        <p>
+          A founder-led American autonomy company. Sentinel's entire software stack was
+          designed and built in-house by founder <strong>Joseph Dean</strong> — 10+ years in
+          manufacturing and a lifelong drone builder — and proven in simulation before a
+          dollar of hardware.
+        </p>
+        <p class="founder__quote">"Endurance and autonomy, built in America, trusted with lives."</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT / CTA ============ -->
+  <section class="cta" id="contact">
+    <div class="container cta__inner reveal">
+      <h2>Let's put time back on the clock.</h2>
+      <p>
+        For search-and-rescue agencies, wildfire and emergency management, defense partners,
+        and investors backing American autonomy — we'd like to hear from you.
+      </p>
+      <a class="btn btn--primary btn--lg" href="mailto:AurigaIndustries@outlook.com">AurigaIndustries@outlook.com</a>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__row">
+      <span>© <span id="year">2026</span> Auriga Industries. Built in the USA.</span>
+      <span class="footer__fine">Sentinel is a sensing platform — detect, track, geolocate, map. No weaponization.</span>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

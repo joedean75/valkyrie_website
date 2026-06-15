@@ -1,4 +1,4 @@
-/* Auriga Industries — site interactions (vanilla, no deps) */
+/* Corvus Industries — site interactions (vanilla, no deps) */
 (function () {
   "use strict";
 

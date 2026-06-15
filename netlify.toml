@@ -1,6 +1,6 @@
-# Netlify configuration for the Auriga Industries static marketing site.
+# Netlify configuration for the Corvus Industries static marketing site.
 # Assumes this file sits at the repo ROOT alongside index.html — i.e. the dedicated
-# `auriga-website` repo created from the contents of valkyrie's `website/` folder.
+# website repo created from the contents of valkyrie's `website/` folder.
 # No build step: it's plain static HTML/CSS/JS.
 
 [build]

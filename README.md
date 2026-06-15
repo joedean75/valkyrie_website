@@ -1,14 +1,15 @@
-# Auriga Industries — Marketing Website
+# Corvus Industries — Marketing Website
 
-A self-contained static marketing site for **Auriga Industries** (product: **Sentinel**), in a
-dark, mission-first register modeled on defense-tech leaders (Anduril, Shield AI) — adapted for a
-**dual-use** company that leads with the civil/SAR mission near-term and the defense thrust long-term.
+A self-contained static marketing site for **Corvus Industries** (products: **Muninn**, civil; and
+**Huginn**, defense), in a dark, mission-first register modeled on defense-tech leaders (Anduril,
+Shield AI) — adapted for a **dual-use** company that leads with the civil/SAR mission near-term and
+the defense thrust long-term.
 
 ## Files
 | File | Purpose |
 |------|---------|
 | `index.html` | Single-page site (hero, mission, platform, capabilities, dual mission, compliance, company, contact) |
-| `styles.css` | Design system — dark theme, "Auriga gold" accent, responsive, reduced-motion aware |
+| `styles.css` | Design system — dark theme, "Corvus gold" accent, responsive, reduced-motion aware |
 | `main.js` | Vanilla JS — sticky nav, mobile menu, scroll reveal, stat counters, cursor-tracking hero glow (no dependencies) |
 | `netlify.toml` | Zero-build host config + security/cache headers (for the dedicated repo) |
 
@@ -34,7 +35,7 @@ config), so once the repo exists, Netlify/Cloudflare is a 2-click connect.
 cd website
 git init -b main
 git add .
-git commit -m "Auriga Industries marketing site"
+git commit -m "Corvus Industries marketing site"
 # with GitHub CLI:
 gh repo create auriga-website --public --source=. --remote=origin --push
 # …or create 'auriga-website' in the GitHub UI, then:
@@ -56,7 +57,7 @@ Source: "GitHub Actions"). This only publishes if `valkyrie` is on a plan that a
 ## Customize before publishing
 - **Imagery:** the platform art is a lightweight inline SVG placeholder. Swap in a real render/photo
   once hardware exists (keep file sizes small; add `loading="lazy"`).
-- **Domain + email:** update the `mailto:` and contact (currently `AurigaIndustries@outlook.com`) once
+- **Domain + email:** update the `mailto:` and contact (currently `CorvusIndustries@outlook.com`) once
   a branded domain/email is set up.
 - **Analytics:** none included by design; add privacy-respecting analytics if desired.
 - **Open Graph image:** add an `og:image` once you have artwork (improves link previews).

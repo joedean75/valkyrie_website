@@ -60,7 +60,7 @@ Source: "GitHub Actions"). This only publishes if `valkyrie` is on a plan that a
 - **Domain + email:** update the `mailto:` and contact (currently `CorvusIndustries@outlook.com`) once
   a branded domain/email is set up.
 - **Analytics:** none included by design; add privacy-respecting analytics if desired.
-- **Open Graph image:** add an `og:image` once you have artwork (improves link previews).
+- **Open Graph image:** `og-image.png` (1200×630) is included and wired up via `og:image`; regenerate it if the branding changes. A `favicon.svg` is also included.
 
 ## ⚠️ Content & compliance guardrails (read before going live)
 - **Export control:** this is the **civil / EAR-safe** public face. Keep messaging at the mission level

@@ -25,3 +25,11 @@
   for = "/*.js"
   [headers.values]
     Cache-Control = "public, max-age=3600"
+[[headers]]
+  for = "/*.svg"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
+[[headers]]
+  for = "/*.png"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
